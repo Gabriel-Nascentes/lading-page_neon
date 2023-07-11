@@ -1,0 +1,53 @@
+.neon {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.neon-text-blue:hover {
+  color: #00b3ff;
+}
+.neon-text-pink:hover {
+  color: #ff00ff;
+}
+.icon-menu {
+  display: none;
+}
+.close {
+  display: none;
+}
+.menu-dropdown {
+  flex-direction: row;
+  justify-content: end;
+}
+@media (max-width: 600px) {
+  .icon-menu {
+    display: block;
+  }
+  .drop-active {
+    width: 100%;
+  }
+  .dropnull {
+    width: 0%;
+  }
+  .menu-dropdown {
+    // width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    .close {
+      padding: 2.5rem;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

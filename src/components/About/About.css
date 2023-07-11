@@ -1,0 +1,27 @@
+.main-container-about .title {
+  font-family: "Pacifico", cursive;
+}
+.main-container-about .title .neon-blue,
+.main-container-about .title .neon-pink {
+  transition: 0.5s;
+}
+.main-container-about .title:hover .neon-blue {
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+.main-container-about .title:hover .neon-pink {
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff, 0 0 120px #ff00ff;
+}
+
+@media (max-width: 1100px) {
+  .main-container-about {
+    flex-direction: column;
+  }
+  .main-container-about .main-container-text {
+    width: 90%;
+  }
+  .main-container-about .main-container-img-on {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=About.css.map */

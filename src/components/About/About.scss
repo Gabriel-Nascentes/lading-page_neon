@@ -1,0 +1,30 @@
+.main-container-about {
+  .title {
+    font-family: "Pacifico", cursive;
+    .neon-blue,
+    .neon-pink {
+      transition: 0.5s;
+    }
+  }
+  .title:hover {
+    .neon-blue {
+      text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+        0 0 80px #00b3ff, 0 0 120px #00b3ff;
+    }
+    .neon-pink {
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff,
+        0 0 80px #ff00ff, 0 0 120px #ff00ff;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .main-container-about {
+    flex-direction: column;
+    .main-container-text {
+      width: 90%;
+    }
+    .main-container-img-on {
+      width: 50%;
+    }
+  }
+}

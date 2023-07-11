@@ -1,0 +1,38 @@
+.main-container .title {
+  font-family: "Pacifico", cursive;
+}
+.main-container .title .neon-blue,
+.main-container .title .neon-pink {
+  transition: 0.5s;
+}
+.main-container .title:hover .neon-blue {
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+.main-container .title:hover .neon-pink {
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff, 0 0 120px #ff00ff;
+}
+.main-container button {
+  background-color: #00b3ff;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.main-container button:hover {
+  background-color: transparent;
+  border: 1px solid #00b3ff;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+
+@media (max-width: 750px) {
+  .main-container .main-container-img {
+    display: none;
+  }
+  .main-container .main-container-text {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=MainContainer.css.map */

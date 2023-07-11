@@ -1,0 +1,23 @@
+.title {
+  font-family: "Pacifico", cursive;
+}
+
+.card {
+  background-color: #1a1a1f;
+}
+
+@media (max-width: 1100px) {
+  .container-products {
+    flex-direction: column;
+  }
+  .container-products .card {
+    width: 60%;
+  }
+}
+@media (max-width: 615px) {
+  .container-products .card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Product.css.map */
